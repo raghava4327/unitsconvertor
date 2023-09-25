@@ -1,0 +1,60 @@
+body{
+    margin:0;
+}
+#main-container{
+    width:550px;
+    margin:20px auto;
+    
+    color:#FFF;
+    font-family: 'Inter', sans-serif;
+}
+#units-input-section{
+    background: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+#units{
+    width:120px;
+    line-height: 80px;
+    margin:0 0 20px 0; 
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background: #6943FF;
+    color:#FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 800;
+
+}
+#convert-btn{
+    font:inherit;
+    width:120px;
+    background: #FFF;
+    border:none;
+    line-height: 30px;
+    text-align:center;  
+    margin:0 0 20px 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+#units-convert-section{
+    text-align:center;
+    background: #1F2937;
+    padding:10px 0 10px 0;
+}
+.units-output-card{
+    
+    width: 500px;
+    height: 100px;
+    margin:10px auto 20px auto;
+    border-radius: 5px 0px 0px 0px;
+    background: #273549;
+}
+p{
+    margin:0;
+    padding-top:20px;
+}
+
